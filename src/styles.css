@@ -1,0 +1,46 @@
+input {
+  font-size: 16px;
+  width: 500px;
+}
+
+.chat-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 1rem 0px 0px 0px;
+}
+
+.chat-bubble {
+  padding: 2px 2px;
+  background-color: rgb(199, 225, 235);
+}
+
+.chat-bubble-green {
+  padding: 2px 2px;
+  background-color: rgb(164, 209, 155);
+}
+
+.bubble-date {
+  color: grey;
+}
+
+.bubble-font {
+  font-weight: 600;
+}
+
+.fade-in-image {
+  animation: fadeIn 5s;
+  animation-duration: 0.8s;
+  position: relative;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    width: 0%;
+  }
+  100% {
+    opacity: 1;
+    width: 100%;
+  }
+}
